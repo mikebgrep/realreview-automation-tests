@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "latest",
+    "@cypress/browserify-preprocessor": "latest",
+    "csv-parse": "^5.6.0",
+    "cymap": "^1.0.4",
+    "cypress": "latest",
+    "package.json": "^2.0.1",
+    "typescript": "latest"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "**/*.steps.ts"
+  },
+  "scripts": {
+    "e2e:chrome": "cypress run --browser chrome"
+  }
+}
